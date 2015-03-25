@@ -1,0 +1,22 @@
+{
+    "name": "DzMathModule",
+    "private": false,
+    "version": "0.1.0",
+    "description": "A simple demo math module for node.",
+    "main": "Calc.js",
+    "keywords": [
+        "math",
+        "fibbonacci"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Daniel Zamorano <daniel.zamorano.m@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "mathjs": "^1.4"
+    },
+    "devDependencies": {
+        "mocha": "^2.2.1"
+    }
+}
