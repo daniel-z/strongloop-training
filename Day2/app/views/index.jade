@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  form#user(method="POST" action="/Users")
+    label(for="user") User Name:
+       input#user(type="text" name="name" placeholder="User Name")
+    label(for="user") User:
+       input#user(type="text" name="pet" placeholder="User Pet")
+
+    button(type="submit") Insert User
+
+  form#fibbo(method="POST" action="/fib" style="margin-top:50px")
+    label(for="fib") Fib:
+       input#fib(type="text" name="fib" placeholder="Get Fibbonacci number of:")
+    button(type="submit") Get Fibbonacci Number
+
