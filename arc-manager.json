@@ -1,0 +1,13 @@
+{
+  "ids": {
+    "ManagerHost": 3,
+    "LoadBalancer": 1
+  },
+  "models": {
+    "ManagerHost": {
+      "38e7cf33-9f7a-4333-a53d-d50fd95d0021": "{\"id\":\"38e7cf33-9f7a-4333-a53d-d50fd95d0021\",\"host\":\"localhost\",\"port\":3000,\"actions\":[\"delete\",\"edit\"],\"protocol\":\"http\",\"created\":1427494564826,\"error\":{\"message\":\"There is no method to handle GET /ServiceInstances/findOne\",\"status\":404},\"errorType\":\"invalid\",\"app\":null,\"processes\":null}",
+      "f8857f4d-2fc0-40cb-998e-3b9d6a132129": "{\"id\":\"f8857f4d-2fc0-40cb-998e-3b9d6a132129\",\"host\":\"appdemo.strongloop.com\",\"port\":7000,\"actions\":[\"delete\",\"edit\",\"env-set\",\"env-get\",\"stop\",\"restart\",\"cluster-restart\"],\"protocol\":\"http\",\"created\":1427495174647,\"error\":null,\"errorType\":null,\"app\":{\"name\":\"loopback-example-app\",\"version\":\"3.0.0\",\"port\":3000},\"processes\":{\"pids\":[{\"parentPid\":15,\"pid\":17,\"workerId\":1,\"listeningSockets\":[{\"address\":\"0.0.0.0\",\"port\":3000,\"addressType\":4}],\"isTrackingObjects\":false,\"isProfiling\":false,\"watchdogTimeout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-03-27T22:40:04.368Z\",\"id\":1,\"serviceInstanceId\":1},{\"parentPid\":1,\"pid\":15,\"workerId\":0,\"listeningSockets\":[],\"isTrackingObjects\":false,\"isProfiling\":false,\"watchdogTimeout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-03-27T22:40:04.372Z\",\"id\":2,\"serviceInstanceId\":1},{\"parentPid\":15,\"pid\":23,\"workerId\":2,\"listeningSockets\":[{\"address\":\"0.0.0.0\",\"port\":3000,\"addressType\":4}],\"isTrackingObjects\":false,\"isProfiling\":false,\"watchdogTimeout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-03-27T22:40:04.423Z\",\"id\":3,\"serviceInstanceId\":1},{\"parentPid\":15,\"pid\":25,\"workerId\":3,\"listeningSockets\":[{\"address\":\"0.0.0.0\",\"port\":3000,\"addressType\":4}],\"isTrackingObjects\":false,\"isProfiling\":false,\"watchdogTimeout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-03-27T22:40:04.472Z\",\"id\":4,\"serviceInstanceId\":1},{\"parentPid\":15,\"pid\":27,\"workerId\":4,\"listeningSockets\":[{\"address\":\"0.0.0.0\",\"port\":3000,\"addressType\":4}],\"isTrackingObjects\":false,\"isProfiling\":false,\"watchdogTimeout\":0,\"isSnapshotting\":false,\"startTime\":\"2015-03-27T22:40:04.565Z\",\"id\":5,\"serviceInstanceId\":1}]}}"
+    },
+    "LoadBalancer": {}
+  }
+}

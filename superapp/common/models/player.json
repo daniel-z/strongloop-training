@@ -1,0 +1,24 @@
+{
+  "name": "Player",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "matches": {
+      "type": "hasAndBelongsToMany",
+      "model": "match",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

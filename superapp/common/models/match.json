@@ -1,0 +1,26 @@
+{
+  "name": "match",
+  "plural": "matches",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "time": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "players": {
+      "type": "hasAndBelongsToMany",
+      "model": "Player",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}

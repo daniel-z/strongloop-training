@@ -1,0 +1,26 @@
+{
+    "name": "Review",
+    "base": "PersistedModel",
+    "strict": false,
+    "idInjection": false,
+    "properties": {
+        "Rate": {
+            "type": "number",
+            "required": true
+        },
+        "Content": {
+            "type": "string",
+            "required": true
+        }
+    },
+    "validations": [],
+    "relations": {
+        "reviewer": {
+            "type": "belongsTo",
+            "model": "Reviewer",
+            "foreignKey": ""
+        }
+    },
+    "acls": [],
+    "methods": []
+}

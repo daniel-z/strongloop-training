@@ -1,0 +1,33 @@
+{
+    "name": "Reviewer",
+    "base": "User",
+    "strict": false,
+    "idInjection": false,
+    "properties": {},
+    "validations": [],
+    "relations": {
+        "reviews": {
+            "type": "hasMany",
+            "model": "Review",
+            "foreignKey": ""
+        }
+    },
+    "acls": [{
+        "accessType": "*",
+        "principalType": "ROLE",
+        "principalId": "$everyone",
+        "permission": "DENY"
+    }, {
+        "accessType": "READ",
+        "principalType": "ROLE",
+        "principalId": "$everyone",
+        "permission": "ALLOW"
+    }, {
+        "accessType": "EXECUTE",
+        "principalType": "ROLE",
+        "principalId": "$owner",
+        "permission": "ALLOW",
+        "property": "create"
+    }],
+    "methods": []
+}

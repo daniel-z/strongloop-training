@@ -1,0 +1,29 @@
+{
+  "name": "CoffeeShop",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "horaDeApertura": {
+      "type": "number",
+      "required": true
+    },
+    "horaDeCerrado": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {
+    "reviews": {
+      "type": "hasMany",
+      "model": "Review",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": []
+}
